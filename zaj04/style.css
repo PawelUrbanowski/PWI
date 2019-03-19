@@ -1,0 +1,27 @@
+header
+{
+    background: yellow;
+}
+#nav
+{
+    background: green;
+}
+.article 
+{
+    background: red;
+    flex: 66%;
+}
+aside
+{
+    background: blue;
+    flex: 33%;
+}
+.footer
+{
+    background: gray;
+}
+
+main {
+    display: flex;
+    
+}
