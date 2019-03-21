@@ -1,0 +1,20 @@
+header
+{
+    background: yellow;
+}
+#nav
+{
+    background: green;
+}
+.article 
+{
+    background: red;
+}
+aside
+{
+    background: blue;
+}
+.footer
+{
+    background: gray;
+}
