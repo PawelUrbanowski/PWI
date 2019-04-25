@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>zaj06</title>
+<style >
+    #hello
+    {
+        width:200px;
+        height:200px;
+        background-color:red;
+    }
+</style>
+    
+</head>
+
+<body>
+    <div id="hello">
+      Hello World
+    </div>
+    <p><a href="#" id="schowaj">Schowaj</a><br>
+    <a href="#" id="pokaz">Pokaz</a>
+
+        
+    </p>
+    
+    
+    
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    
+    </script>
+    <script>
+         $("#schowaj").click(function(event){
+                $("#hello").slideUp("slow");
+            });
+        $("#pokaz").click(function(event){
+                $("#hello").slideDown("slow");
+            });
+        
+        
+    </script>
+</body>
+</html>
